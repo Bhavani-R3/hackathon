@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Find the missing number</h1>
+
+    <script>
+        var x = [1, 2, 4, 5];
+
+        for(let i=0; i< x.length; i++) {
+            let output = x[i+1] - x[i];
+            if(output === 2) {
+                console.log('the missing number is', x[i] + 1 );
+            }
+        }
+    </script>
+</body>
+</html>
